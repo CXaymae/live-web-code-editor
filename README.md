@@ -1,7 +1,8 @@
 # live-web-code-editor
+Auto-Save and Auto-Load Functionality with LocalStorage
 
-hello there, your task is to implement auto-save functionality with localStorage, and auto-load the saved code when user revisits or refreshes the page.
+This project includes an auto-save feature implemented using the localStorage functionality of the browser. The auto-save feature ensures that the user's code is automatically saved in the browser's local storage as they type. This way, even if the user closes the browser or refreshes the page, their code will be preserved.
 
-fork the repository and start working on it.
+Additionally, the project includes an auto-load feature that retrieves the previously saved code from localStorage and automatically populates the code editor when the user revisits or refreshes the page. This saves the user from having to manually retrieve and re-enter their code.
 
-best of luck.
+By incorporating auto-save and auto-load functionality, this project provides a seamless coding experience.
