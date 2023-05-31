@@ -10,6 +10,10 @@ function showPreview(){
     frame.open();
     frame.write(htmlCode+cssCode+jsCode);
     frame.close();
+    // Save the code in localStorage
+    localStorage.setItem("htmlCode", htmlCode);
+    localStorage.setItem("cssCode", cssCode);
+    localStorage.setItem("jsCode", jsCode);
 }
 
 function show(x){
